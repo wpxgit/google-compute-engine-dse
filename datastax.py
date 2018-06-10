@@ -164,6 +164,7 @@ def GenerateConfig(context):
                     }
                 }
             ],
+            'minCpuPlatform': 'Intel Skylake',
             'bootDiskType': 'pd-standard',
             'bootDiskSizeGb': 20,
             'metadata': {
