@@ -26,7 +26,7 @@ properties:
 
   opsCenterZone:
     type: string
-    default: us-central1-f
+    default: europe-west1-d
     x-googleProperty:
       type: GCE_ZONE
 
