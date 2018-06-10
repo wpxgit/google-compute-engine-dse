@@ -157,7 +157,7 @@ def GenerateConfig(context):
                     'deviceName': 'vm-data-disk',
                     'type': 'PERSISTENT',
                     'boot': 'false',
-                    'autoDelete': 'true',
+                    'autoDelete': 'false',
                     'initializeParams': {
                         'diskType': context.properties['dataDiskType'],
                         'diskSizeGb': context.properties['diskSize']
